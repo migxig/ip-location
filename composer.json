@@ -1,0 +1,20 @@
+{
+  "name": "migxig/ip-location",
+  "type": "library",
+  "description": "IP database ipdb format parsing library",
+  "keywords": ["geoip", "geolocation", "geo", "ip", "ipdb", "location"],
+  "authors": [
+    {
+      "name": "chenmingxing",
+      "email": "1007974509@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Migxig\\Ip-location\\": "src/"
+    }
+  }
+}

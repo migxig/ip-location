@@ -20,7 +20,7 @@ class IPTool
     public function __construct($ipdbPath = '')
     {
         if (empty($ipdbPath)) {
-            $ipdbPath = dirname(__DIR__). '/data/vipdata.ipdb';
+            $ipdbPath = dirname(__DIR__) . '/../data/vipdata.ipdb';
         }
 
         $this->reader = new Reader($ipdbPath);
